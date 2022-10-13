@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.head {
+    font-family: fantasy;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.header {
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("j.webp");
+    background-position: center center;
+    background-size: cover;
+    position: sticky;
+}
+
+.header h1 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+.nav-links {
+    flex: 1 1 0%;
+    text-align: right;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 0px;
+    transition: color 1s ease 0s;
+    padding: 20px 10px;
+}
+
+.nav-links ul li a:hover {
+    color: rgb(255, 0, 15);
+}
+
+.text-box {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.text-box p {
+    padding-top: 20px;
+    font-family: monospace;
+    color: white;
+    font-size: x-large;
+}
+
+.text-box h1 {
+    font-family: cursive;
+}
+
+.carousel-item img {
+    height: 80vh;
+    width: 80%;
+    /* padding-left: 200px; */
+    margin-left: 10%;
+}
+
+.w-100 {
+    width: 80%!important;
+}
+
+@media screen and (min-width: 393px) {}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.container h1 {
+    color: black;
+}
+
+.few {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.few img {
+    width: 70%;
+    height: 50vh;
+}
+
+.form-group {
+    width: 50%;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.f {
+    margin: auto !important;
+    border-bottom: 1px black;
+    width: 50%;
+}
+
+
+/* .btn {
+    border-radius: 80px;
+} */
+
+.btn a {
+    color: #fff;
+}
+
+.dark-mode {
+    background-color: black;
+    color: #fff;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+}
+
+footer {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("j.webp");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.font img {
+    height: 50%;
+    width: 100px;
+}
+
+.font {
+    margin-top: 20px;
+}
+
+footer h3 {
+    padding-top: 30px;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
